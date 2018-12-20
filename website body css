@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #010101;
+    color: #4777FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.conteiner {
+    margin: auto;
+    width: 1366px;
+    padding: 4px 29px 4px 25px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: 70px 357px 70px 330px;
+    border: none;
+    margin-top: 50px;
+        
+}
+
+ div {
+    border: 1px solid #4777FF;
+}
+
+.logo {
+    grid-column: 1/5;
+    grid-row: 1/2;
+    border-bottom: none;
+    border-right: none;
+}
+
+.info {
+    grid-column: 5/7;
+    grid-row: 1/2;
+    border-bottom: none;
+    border-right: none;
+}
+
+.contact {
+    
+    grid-column: 7/8;
+    grid-row: 1/2;
+    border-bottom: none;
+    border-right: none;
+    
+}
+
+.lang {
+    grid-column: 8/9;
+    grid-row: 1/2;
+    border-bottom: none;
+    
+}
+
+.info-text {
+    grid-column: 1/5;
+    grid-row: 2/4;
+    border-bottom: none;
+    border-right: none;
+}
+
+.Uran {
+    grid-column: 5/8;
+    grid-row: 2/3;
+    border-bottom: none;
+    border-right: none;
+}
+.r-side {
+    grid-column: 8/9;
+    grid-row: 2/3;
+    border-bottom: none;
+}
+.running {
+    grid-column: 5/8;
+    grid-row: 3/4;
+    border-bottom: none;
+    border-right: none;
+    
+}
+
+.small-side {
+    grid-column: 8/9;
+    grid-row: 3/4;
+    border-bottom: none;
+    
+}
+.Neptune {
+    grid-column: 1/5;
+    grid-row: 4/5;
+    border-right: none;
+}
+.blank {
+    grid-column: 5/8;
+    grid-row: 4/5;
+    border-right: none;
+}
+
+.b-side {
+    grid-column: 8/9;
+    grid-row: 4/5;
+    
+}
+
